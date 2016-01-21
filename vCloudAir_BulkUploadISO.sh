@@ -10,7 +10,10 @@ vCloudAirVDC='CA-VDC01'
 vCloudAirCatalog='default-catalog'
 LocalUploadPath='/Users/md_schneider/projects/vCloudAir_BulkUploadISO/'
 #---------------------------------------------------------
-#This shell script will loop through all the *.ISO files in the LocalUploadPath to your vCloud Air Catalog
+echo "vCloudAir_BulkUploadISO.sh"
+echo "Written by Matthew Schneider - http://blog.mdschneider.me"
+echo "Did you update the variables? If not you're going to try uploading to someone else's account"
+#---------------------------------------------------------
 echo vCloudAir_BulkUploadISO
 echo Please enter your vCloud Air account:
 read vCloudAirAccount
